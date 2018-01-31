@@ -2,7 +2,7 @@
 #include<conio.h>
 int main()
 {
-if(a<)
+if(a<0)
 printf("this is pasitive no");
 else
 printf("this is negative no");
