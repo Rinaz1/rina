@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() 
+{
+	int i,n,ar[50],sum=0,avg;
+	printf("enter the size of the array");
+	scanf("%d",&n);
+	printf("enter the array elements");
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&ar[i]);
+	}
+	for(i=0;i<n;i++)
+	{
+		sum=sum+ar[i];
+	}
+	avg=sum/n;
+	printf("\n%d",sum);
+	printf("\n%d",avg);
+}
